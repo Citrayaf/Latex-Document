@@ -1,0 +1,92 @@
+% Tipe dokumen adalah report dengan satu kolom kertas A4 satu sisi.
+% Ukuran font 12pt
+\documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
+% Load konfigurasi LaTeX untuk tipe laporan thesis
+\usepackage{ta}
+\usepackage{makecell}
+\renewcommand\theadfont{\bfseries}
+% Load konfigurasi khusus untuk laporan yang sedang dibuat
+\input{konfigurasi}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% Awal bagian penulisan laporan
+\begin{document}
+
+% Sampul Laporan
+\include{sampul}
+
+\pagenumbering{gobble}
+%% Halaman pengesahan
+%\addChapter{LEMBAR PENGESAHAN}
+%\include{pengesahan}
+
+% Halaman pernyataan orisinalitas
+%\addChapter{LEMBAR PERNYATAAN ORISINALITAS}
+%\include{orisinalitas}
+
+% Gunakan penomoran halaman romawi
+\pagenumbering{roman}
+
+% setelah bagian ini, halaman dihitung sebagai halaman ke 2
+\setcounter{page}{2}
+
+\addChapter{LEMBAR PENGESAHAN}
+%\include{./pengesah}
+\include{pengesahan}
+
+\addChapter{ABSTRAK}
+\include{abstrak}
+% Abstrak Bahasa Indonesia dan Bahasa Iggris
+
+%\include{abstract}
+
+% Kata Pengantar
+%\addChapter{\kataPengantar}
+%\include{pengantar}
+
+%\addChapter{UCAPAN TERIMA KASIH}
+%\include{ucapan}
+
+% Daftar isi, gambar, dan tabel
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+% Daftar Lampiran
+%\addChapter{DAFTAR LAMPIRAN}
+%\include{listofappendix}
+
+% Gunakan penomeran Arab (1, 2, 3, ...) setelah bagian ini.
+\pagenumbering{arabic}
+
+% Bab 1 : Pendahuluan
+\include{bab1}
+
+% Bab 2 : Dasar Teori
+\include{bab2}
+
+	% Bab 3 : Perancangan
+\include{bab3}
+
+% Bab 4 : Pengujian
+%\include{bab4}
+%
+%% Bab 5 : Kesimpulan dan Saran
+%\include{bab5}
+
+%Daftar Pustaka
+\include{pustaka}
+%
+% Daftar Pustaka
+%\include{pustaka}
+% Lampiran 
+%\begin{appendix}
+%	\pagenumbering{gobble}
+%	\include{markLampiran}
+%%	\setcounter{page}{2}
+%\end{appendix}
+%\include{logbook}
+
+\end{document}

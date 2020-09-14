@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: sampul.aux
+A level-1 auxiliary file: pengesahan.aux
+A level-1 auxiliary file: abstrak.aux
+A level-1 auxiliary file: bab1.aux
+A level-1 auxiliary file: bab2.aux
+A level-1 auxiliary file: bab3.aux
+A level-1 auxiliary file: pustaka.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: refer.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in QC2
+Warning--missing school in staircase1
+Warning--missing publisher in fading1
+Warning--empty journal in ber2
+
+Done.
+You've used 23 entries,
+            4087 wiz_defined-function locations,
+            959 strings with 10487 characters,
+and the built_in function-call counts, 13633 in all, are:
+= -- 1048
+> -- 250
+< -- 93
++ -- 140
+- -- 41
+* -- 608
+:= -- 2097
+add.period$ -- 43
+call.type$ -- 23
+change.case$ -- 20
+chr.to.int$ -- 228
+cite$ -- 27
+duplicate$ -- 1052
+empty$ -- 1234
+format.name$ -- 51
+if$ -- 3181
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 190
+newline$ -- 92
+num.names$ -- 23
+pop$ -- 461
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1040
+stack$ -- 0
+substring$ -- 522
+swap$ -- 792
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 23
+warning$ -- 4
+while$ -- 59
+width$ -- 25
+write$ -- 218
+(There were 4 warnings)

@@ -1,0 +1,159 @@
+% Tipe dokumen adalah report dengan satu kolom kertas A4 satu sisi.
+% Ukuran font 12pt
+\documentclass[12pt, a4paper, bahasa, onecolumn, oneside, final]{report}
+% Load konfigurasi LaTeX untuk tipe laporan thesis
+\usepackage{ta}
+
+
+\usepackage{subfigure}
+%\usepackage{amsmath,amssymb}
+
+\usepackage{amsmath,mathtools,amssymb}
+\usepackage{mathtools}
+
+
+\usepackage{multirow}
+\usepackage{amstext}
+\usepackage{eso-pic}
+
+\usepackage{cite}
+\usepackage{xfrac}
+\usepackage{graphicx}
+\usepackage{eqparbox}
+\usepackage{array}
+\usepackage{color}
+\usepackage{xparse}
+\usepackage{tikz}
+\usetikzlibrary{arrows, fit, matrix, positioning, shapes, backgrounds,tikzmark}
+
+\pgfdeclarelayer{myback}
+\pgfsetlayers{myback,background,main}
+
+\tikzset{mycolor/.style = {line width=1bp,color=#1}}%
+\tikzset{myfillcolor/.style = {draw,fill=#1}}%
+
+\NewDocumentCommand{\highlight}{O{blue!40} m m}{%
+	\draw[mycolor=#1] (#2.north west)rectangle (#3.south east);
+}
+
+\NewDocumentCommand{\fhighlight}{O{blue!40} m m}{%
+	\draw[myfillcolor=#1] (#2.north west)rectangle (#3.south east);
+}
+
+
+\usepackage{makecell}
+\usepackage[thinlines]{easytable}
+\usepackage{stackengine}
+\newcommand\xrowht[2][0]{\addstackgap[.5\dimexpr#2\relax]{\vphantom{#1}}}
+\usepackage{adjustbox}
+
+
+\renewcommand\theadfont{\bfseries}
+% Load konfigurasi khusus untuk laporan yang sedang dibuat
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand\myeq{\mathrel{\stackrel{\makebox[0pt]{\mbox{\normalfont\tiny def}}}{=}}}
+
+
+\hyphenation{dengan di-ha-rap-kan pe-ran-cang-an pa-ra-me-ter pa-ri-ty accu-mu-lator ki-ner-ja pe-ngi-rim de-mo-du-la-tor peng-ukur-an me-mung-kin-kan e-va-lu-asi pe-ngem-bang-an o-ri-gi-nal me-ngi-rim-kan pe-ngu-ji-an di-va-li-da-si men-un-juk-kan di-nya-ta-kan di-bang-kit-kan}
+
+
+\newcommand{\DoTikzmark}[1]{%
+	\tikz[remember picture] \coordinate[shift={(0,.7ex)}](#1);%
+}
+\newcommand{\colrow}[3][]{%
+	\tikz[overlay,remember picture, line width=10pt]
+	\draw[shorten >=-.1em, shorten <=-.1em, #1] (#2)--(#3);
+}
+
+
+\input{konfigurasi}
+% Awal bagian penulisan laporan
+\begin{document}
+	
+
+
+% Sampul Laporan
+\include{sampul}
+
+\pagenumbering{gobble}
+%% Halaman pengesahan
+%\addChapter{LEMBAR PENGESAHAN}
+%\include{pengesahan}
+
+% Halaman pernyataan orisinalitas
+
+
+% Gunakan penomoran halaman romawi
+\pagenumbering{roman}
+
+% setelah bagian ini, halaman dihitung sebagai halaman ke 2
+\setcounter{page}{2}
+
+\addChapter{LEMBAR PENGESAHAN}
+\include{pengesahant}
+%\include{pengesahan}
+\addChapter{LEMBAR PERNYATAAN ORISINALITAS}
+\include{orisinalitas}
+
+\addChapter{ABSTRAK}
+\include{abstrak}
+% Abstrak Bahasa Indonesia dan Bahasa Iggris
+
+\include{abstract}
+
+\addChapter{UCAPAN TERIMA KASIH}
+\include{ucapan}
+
+% Kata Pengantar
+\addChapter{\kataPengantar}
+\include{pengantar}
+
+% Daftar isi, gambar, dan tabel
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+% Daftar Lampiran
+%\addChapter{DAFTAR LAMPIRAN}
+%\include{listofappendix}
+
+\addChapter{DAFTAR \textit{ACHIEVEMENT}}
+\include{achievement}
+
+% Gunakan penomeran Arab (1, 2, 3, ...) setelah bagian ini.
+\pagenumbering{arabic}
+
+
+% Bab 1 : Pendahuluan
+\include{bab1}
+
+% Bab 2 : Dasar Teori
+\include{bab2}
+
+	% Bab 3 : Perancangan
+\include{bab3}
+
+% Bab 4 : Pengujian
+\include{bab4}
+%
+%% Bab 5 : Kesimpulan dan Saran
+\include{bab5}
+
+%Daftar Pustaka
+\include{pustaka}
+%
+% Daftar Pustaka
+%\include{pustaka}
+% Lampiran 
+\begin{appendix}
+	\pagenumbering{gobble}
+	\include{markLampiran}
+	\include{appen}
+%%	\setcounter{page}{2}
+\end{appendix}
+%\include{logbook}
+
+\end{document}

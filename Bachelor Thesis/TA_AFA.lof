@@ -1,0 +1,41 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Klasifikasi standar TV digital dunia.\relax }}{1}{figure.caption.8}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Matriks \textit {parity check} \textit {regular} LDPC \textit {codes} (3,6).\relax }}{7}{figure.caption.11}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Matriks \textit {parity check} \textit {irregular} LDPC \textit {codes}.\relax }}{7}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Tanner\textit { graph} matriks \textit {parity check} \textit {regular} LPDC \textit {codes} dengan $d_{v}=3$ dan $d_{c}=6$.\relax }}{8}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Tanner\textit { graph} matriks \textit {parity check} \textit {irregular} LDPC \textit {codes} dengan $\Lambda (x)$ pada (\ref {eq:Distribusi var nodes rregular LDPC codes}) dan $\Omega (x)$ pada (\ref {eq:Distribusi check nodes rregular LDPC codes}).\relax }}{9}{figure.caption.14}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sebuah contoh \textit {girth} 4 pada LDPC \textit {codes} dengan \textit {cycle} ditunjukkan dengan garis putus-putus: (a) dalam matriks \textit {parity check} $\mathbf {H}$ dan (b) dalam Tanner \textit {graph}.\relax }}{9}{figure.caption.15}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \textit {Sebuah Tanner graph} dari LDPC \textit {Staircase codes} dengan $N=10$, $K=6$, dan $N_{1}=2$.\relax }}{12}{figure.caption.16}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sebuah Tanner \textit {graph} untuk \textit {accumulator} dengan $\mathbf {H}$ pada (\ref {eq: IRA}).\relax }}{12}{figure.caption.17}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagram blok kanal AWGN.\relax }}{15}{figure.caption.18}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Karakteristik kanal untuk \textit {frequency selective fading}.\relax }}{16}{figure.caption.19}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces PDP pada \textit {multipath fading channel}.\relax }}{17}{figure.caption.20}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Efisiensi spektrum dengan \textit {saving bandwidth} sebaga hasil OFDM dibandingkan dengan FDM.\relax }}{18}{figure.caption.21}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Ilustrasi penambahan CPpada awal OFDM simbol sebesar $T_{CP}$.\relax }}{18}{figure.caption.22}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces EXIT \textit {chart} LDPC \textit {codes} untuk $d_{v}=3$ dan $d_{c}=6$ pada berbagai $E_b/N_0$.\relax }}{22}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Kinerja BER \textit {Uncoded} BER QPSK pada kanal AWGN dibandingkan dengan BER teori QPSK.\relax }}{23}{figure.caption.24}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram blok sistem transmisi DVB-T2 dengan penekanan pada LDPC \textit {codes}.\relax }}{26}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagram alir evaluasi kinerja LDPC \textit {codes} pada sistem DVB-T2.\relax }}{27}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Representasi Tanner \textit {graph} LDPC \textit {codes} DVB-T2 dengan $N_{LDPC}=16200$ dan \textit {code rate} $R_e=\frac {4}{9}$.\relax }}{30}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Matriks \textit {parity check} original DVB-T2 LDPC \textit {codes} dengan $N_{LDPC}=16200$.\relax }}{32}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Matriks \textit {downscaled} \textit {parity check} DVB-T2 LDPC \textit {codes} dengan $N_{LDPC}=270$.\relax }}{33}{figure.caption.30}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Hasil graf pohon dan matriks \textit {parity check} LDPC \textit {codes} menggunakan algoritma PEG yang diusulkan.\relax }}{36}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Algoritma untuk menghitung \textit {girth} LDPC \textit {codes} yang diusulkan.\relax }}{38}{figure.caption.32}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Analisis EXIT \textit {chart} LDPC \textit {codes} DVB-T2 dengan (a) $R_e=\frac {4}{9}$ dan (b) $R_e=\frac {3}{5}$, masing-masing, pada SNR $\gamma =2,5\nobreakspace {}dB$ dan $\gamma =3,75\nobreakspace {}dB$.\relax }}{40}{figure.caption.33}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Analisis EXIT \textit {chart} LDPC \textit {codes} DVB-T2 dengan $R_e=\frac {2}{3}$ pada SNR $\gamma =4\nobreakspace {}dB$.\relax }}{41}{figure.caption.34}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Analisis EXIT \textit {chart} LDPC \textit {codes} DVB-T2 dengan $R_e=\frac {11}{15}$ pada SNR $\gamma =4,25\nobreakspace {}dB$.\relax }}{42}{figure.caption.35}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Analisis EXIT \textit {chart} LDPC \textit {codes} DVB-T2 pada (a) $R_e=\frac {7}{9}$ dan (b) $R_e=\frac {37}{45}$, masing-masing, pada SNR $\gamma =4,5\nobreakspace {}dB$ dan $\gamma =5,25\nobreakspace {}dB$.\relax }}{43}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Kinerja BER LDPC \textit {codes} DVB-T2 dengan $N_{LDPC}=16200$ pada kanal AWGN.\relax }}{44}{figure.caption.37}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Kinerja BER LDPC \textit {codes} DVB-T2 dengan: (a) $N_{LDPC}=270$ menggunakan metode \textit {downscaling} dan (b) $N_{LDPC}=270$ menggunakan PEG dengan \textit {accumulator} pada kanal AWGN.\relax }}{45}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Kinerja BER LDPC \textit {codes} DVB-T2 dengan $N_{LDPC}=270$ menggunakan PEG dengan LDGM pada kanal AWGN.\relax }}{46}{figure.caption.39}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Kinerja BER LDPC \textit {codes} DVB-T2 dengan $N_{LDPC}=16200$ pada \textit {channel model} DVB-T2 Kota Bandung.\relax }}{48}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Kinerja BER \textit {downscaled} LDPC \textit {codes} DVB-T2 dengan $N_{LDPC}=270$ pada \textit {channel model} DVB-T2 Kota Bandung.\relax }}{49}{figure.caption.43}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Kinerja BER LDPC \textit {codes} DVB-T2 dengan: (a) $N_{LDPC}=270$ menggunakan PEG dengan \textit {accumulator}, dan (b) $N_{LDPC}=270$ menggunakan PEG dengan LDGM pada \textit {channel model} DVB-T2 Kota Bandung.\relax }}{50}{figure.caption.44}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Distribusi \textit {girth} \textit {downscaled} LDPC \textit {codes} DVB-T2 dengan \textit {code rate} $R_e$: (a) $ R_e=\frac {4}{9} $, (b) $R_e=\frac {3}{5}$, (c) $R_e=\frac {2}{3}$, (d) $R_e=\frac {11}{15}$, (e) $R_e=\frac {7}{9}$, dan (f) $R_e=\frac {37}{45}$.\relax }}{51}{figure.caption.45}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Distribusi \textit {girth} pada \textit {downscaled} LDPC \textit {codes} DVB-T2 menggunakan PEG dengan \textit {code rate} $R_e$: (a) $ R=\frac {4}{9} $, (b) $R_e=\frac {3}{5}$, (c) $R_e=\frac {2}{3}$, (d) $R_e=\frac {11}{15}$, (e) $R_e=\frac {7}{9}$, dan (f) $R_e=\frac {37}{45}$.\relax }}{52}{figure.caption.46}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

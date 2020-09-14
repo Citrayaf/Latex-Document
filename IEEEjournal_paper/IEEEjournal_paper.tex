@@ -1,0 +1,86 @@
+\documentclass[journal,comsoc]{IEEEtran}
+\usepackage[T1]{fontenc}% optional T1 font encoding
+
+\ifCLASSINFOpdf
+\else 
+\fi
+\usepackage{amsmath}
+
+\interdisplaylinepenalty=2500
+
+\usepackage[cmintegrals]{newtxmath}
+\usepackage{array}
+\usepackage{url}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{subfigure}
+\usepackage{amsmath,amssymb}
+\usepackage{multirow}
+\usepackage{amstext}
+\usepackage{cite}
+\usepackage{xfrac}
+\usepackage{graphicx}
+\usepackage{eqparbox}
+\usepackage{array}
+\usepackage{color}
+\usepackage{xparse}
+\usepackage{tikz}
+\usepackage{url}
+\usetikzlibrary{matrix,backgrounds}
+\usepackage[ruled,norelsize]{algorithm2e}
+\pgfdeclarelayer{myback}
+\pgfsetlayers{myback,background,main}
+\usepackage[]{algorithm2e}
+
+
+\begin{document}
+\title{Tulis Judul Jurnal Anda Di Sini}
+
+\author{Juansyah and Khoirul~Anwar}
+\markboth{IEEE Transaction on Wireless Communications}
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Communications Society Journals}
+
+\maketitle
+
+% Abstract
+\begin{abstract}
+This paper proposes header detection technique for massive Internet-of-Things (IoT) wireless networks application. To keep low complexity, we use cross correlation for header detection and Hadamard codes with size of $128\times 128$ as header pattern. To improve detection performance for multiple users in Rayleigh fading channels, we use \textit{capture effect} algorithm. This paper exploits the effect of use of threshold in the coded random access (CRA) system which is affect the degree distributions to be shifted.
+\end{abstract}
+\begin{IEEEkeywords}
+Header detection, massive connections, Internet-of-Things.
+\end{IEEEkeywords}
+%-----------------------------------------------------------
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+Nowadays, information and communications technology (ICT) becomes urgent in digital society era. Digital society is an era or condition that most all devices are connected to the Internet and can communicate each others, also known as machine-to-machine (M2M) communications. In 2020 predicting there are 50 billion devices connected to the Internet \cite{Ericsson}, it is a massive number compared to human population at that time. 
+
+In 2020, fifth generations (5G) technology are launched and deployed to serve and replace fourth generations (4G) technology. 5G technology has three main point referring to ITU-R 2020 standard there are enhanced mobile broadband (embb), massive machine-type communications or massive connections, and low latency communications. In this paper we are consider to solve problem about massive connections which can be solve by using massive multiple input multiple output (MIMO) antenna or using other multiple access scheme that suitable for 5G technology.
+\section{System Model}
+% needed in second column of first page if using \IEEEpubid
+%\IEEEpubidadjcol
+\section{Proposed System}
+\section{Performance Evaluations}
+\section{Conclusion}
+\appendices
+\section*{Acknowledgment}
+This research is in part supported by the Telkom University Scientific Research Grant of "Hibah Penelitian Internasional 2016--2017" on Polar-Raptor Codes-Structured Super-Dense Networks for The Internet-of-Things (IoT).
+
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{References}
+
+%------------------------------Biography---------------------------------
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{foto}}]{Nama}
+Tuliskan deskripsi anda di sini.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{foto}}]{Name}
+Tuliskan deskripsi anda di sini.
+\end{IEEEbiography}
+%------------------------------------------------------------------------
+\end{document}

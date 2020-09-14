@@ -1,0 +1,38 @@
+\contentsline {chapter}{LEMBAR PENGESAHAN}{ii}{section*.2}% 
+\contentsline {chapter}{ABSTRAK}{iii}{section*.4}% 
+\contentsline {chapter}{DAFTAR ISI}{iv}{section*.4}% 
+\contentsline {chapter}{DAFTAR GAMBAR}{vi}{section*.4}% 
+\contentsline {chapter}{DAFTAR TABEL}{vii}{section*.4}% 
+\contentsline {chapter}{\numberline {I}\uppercase {Pendahuluan}}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Latar Belakang Masalah}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Rumusan Masalah}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Tujuan Penelitian}{2}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Batasan Masalah}{2}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Metodologi Penelitian}{3}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}Jadwal Pelaksanaan}{4}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Sistematika Penulisan}{4}{section.1.7}% 
+\contentsline {chapter}{\numberline {II}\uppercase {Konsep Dasar}}{6}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}\textit {Low Density Parity Check} (LDPC) \textit {Codes}}{6}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}\textit {Tanner Graph}}{7}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}\textit {Regular} LDPC \textit {Codes}}{9}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}\textit {Irregular} LDPC \textit {Codes}}{9}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}\textit {Quasi-Cyclic} (QC) LDPC \textit {Codes}}{9}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.5}LDPC \textit {Staircase} \textit {Codes}}{10}{subsection.2.1.5}% 
+\contentsline {section}{\numberline {2.2}Standar LDPC \textit {Codes} \textit {Digital Video Broadcasting – Second Generation Terrestrial} (DVB-T2)}{11}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Pemodelan Kanal}{12}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}\textit {Additive White Gaussian Noise} (AWGN) \textit {Channel}}{12}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}\textit {Frequency Selective Fading Channel}}{13}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}\textit {Power Delay Profile} (PDP)}{14}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Pemodelan Kanal Indonesia}{14}{subsection.2.3.4}% 
+\contentsline {section}{\numberline {2.4}\textit {Extrinsic Information Transfer} (EXIT) \textit {Chart} }{15}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}\textit {Bit Error Rate} (BER)}{16}{section.2.5}% 
+\contentsline {chapter}{\numberline {III}\uppercase {skenario pengujian dan Model Sistem}}{18}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Struktur LDPC \textit {Codes} Standar DVB-T2}{18}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Pengaruh \textit {Code Rate} LDPC \textit {Codes} DVB-T2 terhadap \text {Kinerja} \text {DVB-T2}}{18}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Pengujian Kinerja LDPC \textit {Codes}}{18}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}\textit {Quadrature Phase Shift Keying} (QPSK)}{19}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}AWGN \textit {Channel}}{20}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}\textit {Frequency Selective Fading Channel}}{21}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}\textit {Soft Decoding}}{21}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Skenario Pengujian Kinerja LDPC \textit {Codes} DVB-T2}{21}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Diagram Blok Sistem}{22}{section.3.6}% 

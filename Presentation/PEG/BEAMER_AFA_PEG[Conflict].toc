@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Motivation and Problem}{3}{0}{1}
+\beamer@sectionintoc {2}{Basic Theory}{4}{0}{2}
+\beamer@sectionintoc {3}{The Proposed PEG Algorithm for LDPC Codes}{11}{0}{3}
+\beamer@sectionintoc {4}{Performance Evaluations}{23}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{24}{0}{5}

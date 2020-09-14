@@ -1,0 +1,17 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Klasifikasi standar TV digital dunia.\relax }}{1}{figure.caption.5}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Matriks \textit {parity check} dari \textit {regular} LDPC \textit {codes} (3,6).\relax }}{7}{figure.caption.7}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Matriks \textit {parity check} dari \textit {irregular} LDPC \textit {codes}.\relax }}{7}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Tanner Graph} \textit {parity check} dari \textit {regular} LPDC \textit {codes} dengan $d_{v}=3$ dan $d_{c}=6$.\relax }}{8}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \textit {Tanner Graph} \textit {parity check} dari \textit {irregular} LDPC \textit {codes}.\relax }}{8}{figure.caption.10}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \textit {Tanner Graph} dari LDPC \textit {Staircase codes} dengan $N=10$, $K=6$, dan $N_{1}=2$.\relax }}{11}{figure.caption.11}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagram blok AWGN \textit {channel}.\relax }}{12}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sistem \textit {frequency selective fading channel}.\relax }}{13}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \textit {Channel impulse response} di kanal \textit {broadband}.\relax }}{14}{figure.caption.14}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces EXIT \textit {chart} LDPC \textit {codes} $d_{v}=3$ dan $d_{c}=6$.\relax }}{15}{figure.caption.15}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Nilai \textit {Uncoded} BER QPSK pada AWGN \textit {channel}.\relax }}{16}{figure.caption.16}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram alir sistem pengujian.\relax }}{19}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagram konstelasi QPSK.\relax }}{20}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagram blok sistem transmisi DVB-T2.\relax }}{22}{figure.caption.20}% 

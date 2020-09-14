@@ -1,0 +1,102 @@
+\bibitem{regul2}
+Menteri Komunikasi dan Informatika, ``Peraturan Menteri Kominfo Nomor:
+  07/P/M.KOMINFO/3/2007,'' March 2007.
+
+\bibitem{itu}
+ITU-R, ``Frequency and Network Planning Aspects of DVB-T2,'' ITU-R, Geneva,
+  Tech. Rep., March 2015.
+
+\bibitem{regul}
+Menteri Komunikasi dan Informatika, ``Peraturan Menteri Komunikasi dan Informatika Nomor:
+  05/PER/M.KOMINFO/2/2012,'' Februari 2012.
+
+\bibitem{etsi1}
+ETSI, \emph{Digital Video Broadcasting (DVB); Implementation Guidelines for a
+  Second Generation Digital Terrestrial Television Broadcasting System
+  (DVB-T2)}, 1st~ed., August 2012.
+
+\bibitem{etsi2}
+------, \emph{Digital Video Broadcasting (DVB); Frame Structure Channel Coding
+  and Modulation for a Second Generation Digital Terrestrial Television
+  Broadcasting System (DVB-T2)}, 1st~ed., ETSI, July 2015.
+
+\bibitem{ldpc1}
+R.~G. Gallager, ``Low-Density Parity-Check Codes,'' in \emph{IRE Trans. on
+  Info. Theory, vol. IT-8}, January 1962, pp. 21--28.
+
+\bibitem{QC1}
+C.~Zhang, Z.~Wang, and X.~You, ``Efficient Decoder Architecture for Single
+  Block-Row Quasi-Cyclic LDPC Codes,'' \emph{Circuits and Systems II: Express
+  Briefs, IEEE Transactions on}, vol.~61, pp. 793--797, October 2014.
+
+\bibitem{ldpc3}
+R.~G. Gallager, ``Good Error-Correcting Codes Based on Very Sparse Matrices,''
+  in \emph{IEEE Trans. Znfo. Theory, vol. 45, no. 2}, March 1999, pp. 399--431.
+
+\bibitem{ldpc4}
+M.~C. Davey and D.~J. MacKay, ``Low Density Parity Check Codes Over GF(q),'' in
+  \emph{ZEEE Com. Letters, vol. 2, no. 6}, June 1998.
+
+\bibitem{ldpc5}
+R.~G. Gallager, ``Near Shannon Limit Performance of Low Density Parity Check
+  Codes,'' in \emph{Electron. Lett., vol. 33, no. 6}, March 1997, pp. 457--458.
+
+\bibitem{tann1}
+R.~{Tanner}, ``A Recursive Approach to Low Complexity Codes,'' \emph{IEEE
+  Transactions on Information Theory}, vol.~27, no.~5, pp. 533--547, Sep. 1981.
+
+\bibitem{ldpc7}
+M.~Luby, M.~Mitzenmacher, A.~Shokrollahi, and D.~Spielman, ``Improved
+  Low-Density Parity-Check Codes Using Irregular Graphs,'' in \emph{IEEE Trans.
+  Inform. Theory, vol. 47}, February 2001, pp. 585--598.
+
+\bibitem{QC2}
+G.~Tzimpragos, C.~Kachris, D.~Soudris, and I.~Tomkos, ``A Low-Complexity
+  Implementation of QC-LDPC Encoder in Reconfigurable Logic,'' September 2013, pp.
+  1--4.
+
+\bibitem{QC3}
+M.~Mankar, G.~Asutkar, and P.~Dakhole, ``Reduced Complexity Quasi-Cyclic LDPC
+  Encoder for IEEE 802.11n,'' \emph{International Journal of VLSI Design \&
+  Communication Systems}, vol.~7, pp. 33--47, December 2016.
+
+\bibitem{staircase1}
+F.~Mattoussi, ``Design and Optimization of AL-FEC Codes: The GLDPC-Staircase
+  Codes,'' Ph.D. dissertation, February 2014.
+
+\bibitem{awgn1}
+H.~Harada and R.~Prasad, \emph{Simulation and Software Radio for Mobile
+  Communications}.\hskip 1em plus 0.5em minus 0.4em\relax Norwood, MA, USA:
+  Artech House, Inc., January 2002.
+
+\bibitem{fading1}
+B.~Ahmed and M.~Matin, \emph{Coding for MIMO-OFDM in Future Wireless Systems},
+  May 2015.
+
+\bibitem{fading2}
+R.~Gustafsson and A.~Mohammed, ``{Simulation of Wireless Fading Channels},''
+  Department of Telecommunications and Signal Processing Blekinge Institute of
+  Technology, Tech. Rep., February 2003.
+
+\bibitem{pdp1}
+A.~Goldsmith, \emph{Wireless Communications}.\hskip 1em plus 0.5em minus
+  0.4em\relax Cambridge University Press, June 2005.
+
+\bibitem{ch1}
+E.~M. {Alfaroby}, N.~M. {Adriansyah}, and K.~{Anwar}, ``Study on Channel Model
+  for Indonesia 5G Networks,'' in \emph{2018 International Conference on
+  Signals and Systems (ICSigSys)}, May 2018, pp. 125--130.
+
+\bibitem{exit1}
+S.~{ten Brink}, ``Convergence Behavior of Iteratively Decoded Parallel
+  Concatenated Codes,'' \emph{IEEE Transactions on Communications}, vol.~49,
+  no.~10, pp. 1727--1737, Oct 2001.
+
+\bibitem{ber1}
+G.~Breed, ``{Bit Error Rate : Fundamental Concepts and Measurement Issues},''
+  \emph{High Frequency Electronics}, pp. 46--48, January 2003.
+
+\bibitem{ber2}
+L.~Hanzo, W.~Webb, and T.~Keller, ``Single- and Multi-Carrier Quadrature
+  Amplitude Modulation: Principles and Applications for Personal
+  Communications, WATM and Broadcasting,'' April 2000.

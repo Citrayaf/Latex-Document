@@ -1,0 +1,166 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{exit1}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=tBS}{%
+         prefix={ten},
+         prefixi={t\bibinitperiod},
+         family={Brink\bibnamedelima S},
+         familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BSt1}
+    \strng{fullhash}{BSt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{IEEE Trans. on Commun}
+    \field{pages}{1727\bibrangedash 1737}
+    \field{title}{Convergence behaviour of iteratively decoded parallel
+  concatenated codes}
+    \field{volume}{49}
+    \field{year}{2001}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{etsi2}{book}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Digital Video Broadcasting (DVB); Frame structure channel
+  coding and modulation for a second generation digital terrestrial television
+  broadcasting system (DVB-T2)}
+    \field{volume}{V1.1.1}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{etsi1}{manual}{}
+    \list{organization}{1}{%
+      {ETSI TS 102 831 V1.2.1}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Digital Video Broadcasting (DVB); Implementation guidelines
+  for a second generation digital terrestrial television broadcasting system
+  (DVB-T2)}
+    \field{year}{2012}
+  \endentry
+
+  \entry{ldpc6}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=GRG}{%
+         family={Gallager},
+         familyi={G\bibinitperiod},
+         given={R.\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRG1}
+    \strng{fullhash}{GRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{IRE TRANSACTION ON INFORMARION THEORY}
+    \field{pages}{21\bibrangedash 28}
+    \field{title}{Low-Density Parity-Check Codes}
+    \field{year}{1962}
+  \endentry
+
+  \entry{ldpc7}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=LM}{%
+         family={Luby},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mitzenmacher},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Shokrollahi},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Spielman},
+         familyi={S\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM+1}
+    \strng{fullhash}{LMMMSASD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{IEEE Trans. Inform. Theory, vol. 47}
+    \field{pages}{585\bibrangedash 598}
+    \field{title}{Improved Low-Density Parity-Check Codes Using Irregular
+  Graphs}
+    \field{year}{2001}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{koding1}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MTK}{%
+         family={Moon},
+         familyi={M\bibinitperiod},
+         given={Todd\bibnamedelima K.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons, Inc}%
+    }
+    \strng{namehash}{MTK1}
+    \strng{fullhash}{MTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Error Correction Coding : Mathematical Methods and
+  Algorithms}
+    \field{year}{2005}
+  \endentry
+
+  \entry{regul}{book}{}
+    \list{publisher}{1}{%
+      {Menteri Komunikasi dan Informatika}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Peraturan Menteri Komunikasi dan Informatika NOMOR:
+  05/PER/M.KOMINFO/2/2012}
+    \field{year}{2012}
+  \endentry
+\enddatalist
+\endinput

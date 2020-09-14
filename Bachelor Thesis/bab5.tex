@@ -1,0 +1,22 @@
+%---------------------------------------------------------------
+\chapter{\babLima}
+%---------------------------------------------------------------
+
+%---------------------------------------------------------------
+\section{Kesimpulan}
+%---------------------------------------------------------------
+Tugas Akhir ini telah melakukan studi terhadap kinerja LDPC \textit{codes} DVB-T2 dengan panjang blok $N_{LDPC}=16200$ untuk setiap nominal \textit{code rate} $R_n=\left \{\frac{1}{2}, \frac{3}{5}, \frac{2}{3}, \frac{3}{4}, \frac{4}{5}, \frac{5}{6} \right \}$ yang memiliki nilai \textit{effective code rate} $R_e=\left \{ \frac{4}{9}, \frac{3}{5}, \frac{2}{3},\frac{11}{15},\frac{7}{9},\frac{37}{45} \right \}$. Pengujian LDPC \textit{codes} dalam sistem DVB-T2 dilakukan pada model kanal AWGN dan \textit{channel model} DVB-T2 Indonesia untuk mengevaluasi dan memperoleh kinerja dari DVB-T2 yang dapat diimplementasikan di Indonesia. Tugas Akhir ini telah mengusulkan teknik \textit{downscaling} untuk LDPC \textit{codes} DVB-T2 dan \textit{Anti-Girth} 4 PEG untuk menghindari \textit{cycle} yang melibatkan 4 \textit{nodes}, sehingga meminimalkan \textit{error}. Tugas Akhir ini juga telah mengusulkan \textit{degree distribution} LDPC \textit{codes} DVB-T2 dengan $N_{LDPC}=16200$, \textit{downscaled} LDPC \textit{codes} DVB-T2 dengan panjang blok $N_{LDPC}=270$ untuk $R_e=\left \{ \frac{4}{9}, \frac{3}{5}, \frac{2}{3},\frac{11}{15},\frac{7}{9},\frac{37}{45} \right \}$ yang telah dievaluasi menggunakan EXIT \textit{chart}. Tugas Akhir ini juga telah mengusulkan teknik untuk menghitung \textit{girth} yang secara efektif dapat mengevaluasi \textit{girth} pada berbagai LDPC \textit{codes}.
+
+
+Hasil kinerja BER dalam Tugas Akhir ini menunjukkan bahwa kinerja LDPC \textit{codes} sangat dipengaruhi oleh panjang blok. Blok yang semakin panjang menjadikan kerja LDPC \textit{codes} menjadi semakin baik. Penggunaan PEG dalam teknik \textit{downscaled} berhasil menghindari munculnya \textit{girth} 4 pada LDPC \textit{codes} terutama untuk \textit{codes} yang berukuran kecil. Hasil perancangan LDPC \textit{codes} untuk ukuran matriks kecil bermanfaat untuk LDPC \textit{codes} pada \textit{device} berdaya dan kompleksitas rendah, seperti \textit{device Internet of Things (IoT)} dan \textit{drone}. 
+
+
+Tugas Akhir ini berhasil mengetahui karakteristik dan kinerja LDPC \textit{codes} DVB-T2 pada \textit{channel model} DVB-T2 Indonesia yang diharapkan menjadi rujukan kualitas TV digital Indonesia. Hasil dari semua evaluasi yang dilakukan pada Tugas Akhir ini menyimpulkan bahwa LDPC \textit{codes} dengan bagian \textit{parity} yang menggunakan \textit{accumulator} memiliki kinerja yang lebih baik daripada matriks identitas seperti pada LDGM. \textit{Girth} minimal yang lebih besar tidak selalu menjamin LDPC \textit{codes} yang memiliki kinerja yang lebih baik, melainkan penyebaran \textit{degree} pada bagian informasi dari LDPC \textit{codes} memiliki peranan penting dalam kinerja sebuah LDPC \textit{codes}. 
+Evaluasi kinerja BER pada kanal AWGN dan \textit{channel model} DVB-T2 Indonesia menunjukkan profil kinerja LDPC \textit{codes} DVB-T2 untuk setiap \textit{code rate}, sehingga hasil dari Tugas Akhir ini diharapkan dapat menjadi referensi dalam eksperimen implementasi DVB-T2 di wilayah Indonesia sebagai standar Televisi Digital Indonesia yang baru.
+
+
+%---------------------------------------------------------------
+\section{Saran}
+
+Tugas Akhir ini menyarankan untuk simulasi kinerja LDPC \textit{codes} DVB-T2 dengan menggunakan modulasi 16-QAM, 64-QAM, maupun 256-QAM. Tugas Akhir ini juga menyarankan penggunaan LDPC \textit{codes} dengan panjang blok $N_{LDPC}=64800$ pada \textit{channel model} DVB-T2 Indonesia agar dapat melengkapi profil kinerja LDPC \textit{codes} untuk setiap modulasi dari DVB-T2. Tugas Akhir ini juga menyarankan untuk melakukan evaluasi kinerja dari FEC DVB-T2 secara menyeluruh, sehingga misalnya, kinerja  BCH \textit{codes} dengan LDPC \textit{codes} pada DVB-T2 dapat diketahui. Untuk pengembangan perancangan LDPC \textit{codes} menggunakan PEG, perancangan PEG dengan menggunakan metode pertama dari PEG sebaiknya dicoba.
+%---------------------------------------------------------------

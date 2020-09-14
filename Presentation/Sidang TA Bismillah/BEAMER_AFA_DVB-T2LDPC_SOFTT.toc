@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Problems and Motivations}{3}{0}{1}
+\beamer@sectionintoc {2}{Basic Theory}{4}{0}{2}
+\beamer@sectionintoc {3}{System Model of DVB-T2}{5}{0}{3}
+\beamer@sectionintoc {4}{The Design of DVB-T2 LDPC Codes}{7}{0}{4}
+\beamer@subsectionintoc {4}{1}{Proposed Downscaling Technique}{7}{0}{4}
+\beamer@subsectionintoc {4}{2}{Possible Design with PEG}{8}{0}{4}
+\beamer@sectionintoc {5}{Performance Evaluations}{10}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{15}{0}{6}
